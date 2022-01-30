@@ -1,0 +1,59 @@
+.sidebar {
+  padding: 10px;
+  height: 100%;
+  width: 250px;
+  box-shadow: 5px 0px 6px rgba(0, 0, 0, 0.15);
+  &--heading {
+    text-align: center;
+    img.profile_logo {
+      width: 100px;
+      object-fit: contain;
+    }
+    h1 {
+      font-size: 1.15em;
+      text-transform: uppercase;
+      letter-spacing: 2px;
+    }
+  }
+  &--inner {
+    margin-top: 100px;
+    li {
+      margin-bottom: 8px;
+
+      .nav-icon {
+        margin-right: 10px;
+      }
+    }
+
+    a.nav-link {
+      color: $primary;
+    }
+  }
+  &--footer {
+    width: 100%;
+    position: absolute;
+    bottom: 10px;
+    left: 0;
+    .nav-link {
+      color: $primary;
+    }
+
+    .social-links {
+      width: 45%;
+      margin: 0 auto;
+      li {
+        a {
+          padding: 0px;
+        }
+      }
+    }
+    .extra-links {
+      .settings_link,
+      .signout_link {
+        color: $primary;
+        text-decoration: none;
+        margin: 0 5px;
+      }
+    }
+  }
+}

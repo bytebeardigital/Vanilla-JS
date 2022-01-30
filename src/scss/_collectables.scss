@@ -1,0 +1,23 @@
+//NFT Image Card
+.ov-split {
+  .image-card {
+    padding: 12px 12px 0 12px;
+    text-align: center;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.15);
+    img {
+      width: 60%;
+      margin: 0 auto;
+    }
+    border-radius: 8px;
+
+    &__content {
+      display: flex;
+      flex-direction: column;
+      justify-content: space-evenly;
+      img {
+        width: 60%;
+        margin: 0 auto;
+      }
+    }
+  }
+}
