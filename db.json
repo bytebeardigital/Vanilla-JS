@@ -61,6 +61,22 @@
           "image": "./output/assets/images/foxy-gif.gif"
         }
       ]
+    },
+    {
+      "finances": [
+        {
+          "income": [
+            { "income_name": "InsideOut", "income_price": 1600.24 },
+            { "income_name": "BBD", "income_price": 500 }
+          ]
+        },
+        {
+          "expense": [
+            { "expense_name": "Rent", "income_price": 1010.24 },
+            { "expense_price": "TMobile", "income_price": 124.34 }
+          ]
+        }
+      ]
     }
   ]
 }

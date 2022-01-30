@@ -1,13 +1,11 @@
-function sum(...args) {
-  let sum = 0;
+//function to handle successful fetch of the api data
+// GET Request.
+fetch("https://my-json-server.typicode.com/bytebeardigital/vanilla-js/db") // Handle success
+.then(response => response.json()) // convert to json
+.then(json => console.log(json)) //print data to console
+.catch(err => console.log("Request Failed", err)); // Catch errors
 
-  for (let arg of args) sum += arg;
-
-  return sum;
-}
-
-let x = sum(11, 12, 13);
-document.getElementById("demo").innerHTML = "Sum of 11+12+13 => " + x;
+fetchingData();
 
 class Person {
   constructor(fname, lname, profession) {
