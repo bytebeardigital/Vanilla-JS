@@ -73,13 +73,13 @@
         {
           "income": [
             { "income_name": "InsideOut", "income_price": 1600.24 },
-            { "income_name": "BBD", "income_price": 500 }
+            { "income_name": "BBD", "income_price": 500.45 }
           ]
         },
         {
           "expense": [
-            { "expense_name": "Rent", "income_price": 1010.24 },
-            { "expense_price": "TMobile", "income_price": 124.34 }
+            { "expense_name": "Rent", "expense_price": 1010.24 },
+            { "expense_name": "TMobile", "expense_price": 124.34 }
           ]
         }
       ]
